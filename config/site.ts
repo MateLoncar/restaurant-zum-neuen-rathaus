@@ -9,7 +9,7 @@ export const siteConfig = {
   contact: {
     phone: "0211 71 66 66",
     phoneHref: "+49211716666",
-    fax: "0211 97 14 204",
+    fax: "-",
     email: "hotelzumneuenrathaus@gmail.com",
     whatsapp: "https://wa.me/4915753271885",
     address: {
@@ -31,7 +31,7 @@ export const siteConfig = {
     { day: "Samstag", dayOfWeek: "Saturday", closed: false },
     { day: "Sonntag", dayOfWeek: "Sunday", closed: false },
   ],
-  restaurantHours: ["11:30–15:00 Uhr", "17:30–24:00 Uhr"],
+  restaurantHours: ["11:30–15:00 Uhr", "17:30–22:00 Uhr"],
   restaurant: {
     capacity: 60,
     terrace: true,
@@ -42,7 +42,7 @@ export const siteConfig = {
     doubleRoomCents: 8800,
     breakfastPerPersonCents: 1500,
     extraBedPerNightCents: 3000,
-    amenities: ["Kostenfreies WLAN", "Dusche", "WC", "Minibar", "Flachbild-TV"],
+    amenities: ["Kostenfreies WLAN", "Dusche", "WC", "Flachbild-TV"],
   },
   story: [
     "Unsere Geschichte beginnt in Split, der kroatischen Küstenstadt an der Adria. Von dort stammt die Leidenschaft für Gastfreundschaft und gutes Essen, die die Familie Lončar heute in Benrath weiterlebt.",

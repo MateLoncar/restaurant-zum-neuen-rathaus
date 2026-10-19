@@ -8,7 +8,7 @@ export default function PageHeading({
   description: string;
 }) {
   return (
-    <section className="border-b border-white/10 bg-char-900 px-5 py-16 sm:py-20">
+    <section className="border-b border-border bg-char-900 px-5 py-16 sm:py-20">
       <div className="mx-auto max-w-7xl">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-ember-300">
           {eyebrow}

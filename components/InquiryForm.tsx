@@ -35,7 +35,7 @@ export default function InquiryForm({ kind }: { kind: FormKind }) {
 
   if (status === "success") {
     return (
-      <div className="rounded-2xl border border-ember-300/30 bg-ember-300/5 p-8" role="status" aria-live="polite">
+      <div className="rounded-sm border border-accent-light p-6 sm:p-8" role="status" aria-live="polite">
         <h2 className="font-display text-2xl text-ember-100">Anfrage übermittelt</h2>
         <p className="mt-3 leading-7 text-ember-50/75">
           Ihre Nachricht wurde an das Hotel-Restaurant gesendet. Es handelt sich um eine Anfrage; wir bestätigen die Reservierung oder Zimmerverfügbarkeit persönlich.
@@ -48,7 +48,7 @@ export default function InquiryForm({ kind }: { kind: FormKind }) {
   }
 
   return (
-    <form onSubmit={submit} className="rounded-2xl border border-white/10 bg-white/[0.025] p-6 sm:p-8">
+    <form onSubmit={submit} className="rounded-sm border border-border bg-background p-5 sm:p-7">
       <div className="grid gap-5 sm:grid-cols-2">
         <Field label="Vor- und Nachname" name="name" autoComplete="name" />
         <Field label="E-Mail-Adresse" name="email" type="email" autoComplete="email" />
@@ -96,7 +96,7 @@ export default function InquiryForm({ kind }: { kind: FormKind }) {
       </label>
 
       {status === "error" && (
-        <p className="mt-5 rounded-lg border border-red-300/30 bg-red-950/30 p-3 text-sm text-red-100" role="alert">
+        <p className="mt-5 rounded-lg border border-red-300/30 bg-transparent p-3 text-sm text-red-800" role="alert">
           {error}
         </p>
       )}

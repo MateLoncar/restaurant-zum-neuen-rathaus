@@ -17,7 +17,7 @@ export default function Home() {
       <Hero />
       <About />
 
-      <section className="border-y border-white/10 bg-char-900 px-5 py-20 sm:py-24">
+      <section className="border-y border-border bg-char-900 px-5 py-20 sm:py-24">
         <div className="mx-auto max-w-7xl">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-ember-300">Restaurant und Hotel</p>
@@ -39,7 +39,7 @@ export default function Home() {
             <h2 className="mt-4 font-display text-3xl font-medium text-ember-50 sm:text-4xl">Platz für bis zu {siteConfig.restaurant.capacity} Gäste.</h2>
             <p className="mt-5 max-w-xl leading-7 text-ember-50/70">Für ein Essen mit der Familie, einen Abend mit Freunden oder eine private Feier bietet unser Restaurant den passenden Rahmen. Bei schönem Wetter lädt die sonnige Außenterrasse zum Verweilen ein.</p>
             <p className="mt-4 max-w-xl leading-7 text-ember-50/70">Für festliche Anlässe sind nach persönlicher Absprache Lösungen im Haus oder bei Ihnen zu Hause möglich.</p>
-            <a href={`tel:${siteConfig.contact.phoneHref}`} className="mt-6 inline-flex rounded-full border border-ember-300/60 px-6 py-3 text-sm font-semibold text-ember-100 hover:bg-white/5">Feier telefonisch besprechen</a>
+            <a href={`tel:${siteConfig.contact.phoneHref}`} className="mt-6 inline-flex rounded-full border border-ember-300/60 px-6 py-3 text-sm font-semibold text-ember-100 hover:bg-accent-light/20">Feier telefonisch besprechen</a>
           </div>
           <div className="border-l border-ember-300/40 pl-7 sm:pl-10">
             <p className="font-display text-2xl leading-relaxed text-ember-100">{siteConfig.story[2]}</p>
@@ -53,7 +53,7 @@ export default function Home() {
 
 function FeatureCard({ title, body, href, link }: { title: string; body: string; href: string; link: string }) {
   return (
-    <article className="flex min-h-56 flex-col rounded-xl border border-white/10 p-6">
+    <article className="flex min-h-56 flex-col rounded-sm border border-border p-6">
       <h3 className="font-display text-xl text-ember-100">{title}</h3>
       <p className="mt-3 text-sm leading-6 text-ember-50/65">{body}</p>
       <Link href={href} className="mt-auto pt-6 text-sm font-semibold text-ember-200 hover:text-ember-100">{link} <span aria-hidden="true">→</span></Link>

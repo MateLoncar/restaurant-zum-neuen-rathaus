@@ -13,7 +13,7 @@ export default function ImpressumPage() {
   return (
     <main id="main-content">
       <PageHeading eyebrow="Rechtliches" title="Impressum" description="Angaben zum Hotel-Restaurant Zum Neuen Rathaus." />
-      <article className="prose-invert mx-auto max-w-3xl px-5 py-12 text-sm leading-7 text-ember-50/75 sm:py-16">
+      <article className="mx-auto max-w-3xl px-5 py-12 text-sm leading-7 text-ember-50/75 sm:py-16">
         <h2 className="font-display text-2xl text-ember-100">Zum Neuen Rathaus – Hotel-Restaurant</h2>
         <p className="mt-4">Inhaber: Teo Loncar</p>
         <address className="mt-4 not-italic">{contact.address.street}<br />{contact.address.postalCode} {contact.address.city}</address>

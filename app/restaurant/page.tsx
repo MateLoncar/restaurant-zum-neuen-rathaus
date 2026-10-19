@@ -29,7 +29,7 @@ export default function RestaurantPage() {
           </div>
         </div>
 
-        <section className="mt-16 border-t border-white/10 pt-12" aria-labelledby="kueche">
+        <section className="mt-16 border-t border-border pt-12" aria-labelledby="kueche">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-ember-300">Unsere Küche</p>
           <h2 id="kueche" className="mt-4 font-display text-3xl text-ember-50">Für den kleinen und großen Appetit</h2>
           <div className="mt-7 grid gap-7 sm:grid-cols-3">
@@ -42,7 +42,7 @@ export default function RestaurantPage() {
 
         <div className="mt-14 flex flex-col gap-3 sm:flex-row">
           <Link href="/speisekarte/" className="inline-flex min-h-12 items-center justify-center rounded-full bg-ember-500 px-7 font-semibold text-char-950 hover:bg-ember-400">Speisekarte ansehen</Link>
-          <Link href="/reservierung/" className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/20 px-7 font-semibold text-ember-50 hover:bg-white/5">Tisch anfragen</Link>
+          <Link href="/reservierung/" className="inline-flex min-h-12 items-center justify-center rounded-full border border-border px-7 font-semibold text-ember-50 hover:bg-accent-light/20">Tisch anfragen</Link>
         </div>
       </div>
     </main>
