@@ -12,7 +12,7 @@ export default function About() {
         <div className="space-y-5 text-base leading-8 text-ember-50/70">
           {siteConfig.story.slice(0, 2).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
           <Link href="/restaurant/" className="inline-flex text-sm font-semibold text-ember-200 underline underline-offset-4 hover:text-ember-100">Unsere Geschichte entdecken</Link>
-          <dl className="grid max-w-lg grid-cols-3 gap-5 border-t border-white/10 pt-6">
+          <dl className="grid max-w-lg grid-cols-3 gap-5 border-t border-border pt-6">
             <div><dt className="font-display text-2xl text-ember-200">40+</dt><dd className="mt-1 text-xs text-ember-50/50">Jahre Erfahrung</dd></div>
             <div><dt className="font-display text-2xl text-ember-200">6</dt><dd className="mt-1 text-xs text-ember-50/50">Hotelzimmer</dd></div>
             <div><dt className="font-display text-2xl text-ember-200">Benrath</dt><dd className="mt-1 text-xs text-ember-50/50">Düsseldorf</dd></div>

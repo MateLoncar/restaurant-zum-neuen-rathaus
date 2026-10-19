@@ -1,69 +1,107 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  --font-display: Georgia, "Times New Roman", serif;
-  --color-ember-50: #faf8f2;
-  --color-ember-100: #f1ead8;
-  --color-ember-200: #e2d3af;
-  --color-ember-300: #d7bc80;
-  --color-ember-400: #d7bc80;
-  --color-ember-500: #c6a664;
-  --color-char-800: #292a2d;
-  --color-char-900: #191a1d;
-  --color-char-950: #101114;
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-cormorant), Georgia, "Times New Roman", serif;
+
+  --color-background: var(--site-background);
+  --color-surface: var(--site-surface);
+  --color-text: var(--site-text);
+  --color-text-muted: var(--site-text-muted);
+  --color-accent: var(--site-accent);
+  --color-accent-ink: var(--site-accent-ink);
+  --color-accent-light: var(--site-accent-light);
+  --color-border: var(--site-border);
+
+  /* Keep existing utility names while mapping them to the active theme. */
+  --color-ember-50: var(--site-text);
+  --color-ember-100: var(--site-text);
+  --color-ember-200: var(--site-accent-ink);
+  --color-ember-300: var(--site-accent-ink);
+  --color-ember-400: var(--site-accent-hover);
+  --color-ember-500: var(--site-accent);
+  --color-char-800: var(--site-surface);
+  --color-char-900: var(--site-surface);
+  --color-char-950: #202020;
+}
+
+:root,
+html[data-theme="light"] {
+  color-scheme: light;
+  --site-background: #e9dfcb;
+  --site-surface: #e9dfcb;
+  --site-text: #202020;
+  --site-text-muted: #56524a;
+  --site-accent: #b99a5b;
+  --site-accent-ink: #856833;
+  --site-accent-hover: #a4874d;
+  --site-accent-light: #d9c99f;
+  --site-border: #c8b99b;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --site-background: #202020;
+  --site-surface: #2a2a2a;
+  --site-text: #f8f4e9;
+  --site-text-muted: #c5c5c5;
+  --site-accent: #b99a5b;
+  --site-accent-ink: #d2bb83;
+  --site-accent-hover: #c6a969;
+  --site-accent-light: #b99a5b;
+  --site-border: #4a453a;
 }
 
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
+  background: var(--site-background);
+  color: var(--site-text);
 }
 
 body {
-  background: #101114;
+  background: var(--site-background);
+  color: var(--site-text);
+  font-synthesis: none;
+}
+
+h1,
+h2 {
+  text-wrap: balance;
+}
+
+:focus-visible {
+  outline: 2px solid var(--site-accent-ink);
+  outline-offset: 3px;
 }
 
 ::selection {
-  color: #101114;
-  background: #d7bc80;
-}
-
-.hero-shade {
-  background: linear-gradient(
-    90deg,
-    rgba(16, 17, 20, 0.96) 0%,
-    rgba(16, 17, 20, 0.88) 42%,
-    rgba(16, 17, 20, 0.46) 100%
-  );
+  color: #202020;
+  background: var(--site-accent-light);
 }
 
 .input {
   width: 100%;
   min-height: 2.9rem;
-  border-radius: 0.65rem;
-  border: 1px solid rgba(255, 255, 255, 0.17);
-  background: rgba(255, 255, 255, 0.045);
+  border-radius: 0.4rem;
+  border: 1px solid var(--site-border);
+  background: var(--site-surface);
   padding: 0.72rem 0.85rem;
-  color: #faf8f2;
+  color: var(--site-text);
   font-size: 0.925rem;
 }
 
 .input::placeholder {
-  color: rgba(250, 248, 242, 0.45);
+  color: var(--site-text-muted);
 }
 
 .input:focus-visible {
-  outline: 2px solid #d7bc80;
+  outline: 2px solid var(--site-accent);
   outline-offset: 2px;
 }
 
 .input option {
-  color: #191a1d;
-}
-
-.input::-webkit-calendar-picker-indicator {
-  filter: invert(0.85);
+  color: var(--site-text);
 }
 
 .skip-link {
@@ -72,24 +110,21 @@ body {
   left: 1rem;
   top: -5rem;
   padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  background: #d7bc80;
-  color: #101114;
+  border-radius: 0.35rem;
+  background: var(--site-accent);
+  color: #202020;
 }
 
 .skip-link:focus {
   top: 1rem;
 }
 
-@media (max-width: 640px) {
-  .hero-shade {
-    background: linear-gradient(
-      180deg,
-      rgba(16, 17, 20, 0.48) 0%,
-      rgba(16, 17, 20, 0.82) 35%,
-      #101114 95%
-    );
-  }
+a,
+button,
+input,
+select,
+textarea {
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media (prefers-reduced-motion: reduce) {

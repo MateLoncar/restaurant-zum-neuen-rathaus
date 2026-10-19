@@ -34,7 +34,7 @@ export default function DatenschutzPage() {
         <p className="mt-4">Sie können im Rahmen der gesetzlichen Voraussetzungen Auskunft über Ihre Daten sowie Berichtigung, Löschung oder Einschränkung der Verarbeitung verlangen und einer Verarbeitung widersprechen. Eine erteilte Einwilligung können Sie mit Wirkung für die Zukunft widerrufen. Außerdem können Sie sich bei einer Datenschutzaufsichtsbehörde beschweren. Für Nordrhein-Westfalen ist die <a href="https://www.ldi.nrw.de/" target="_blank" rel="noreferrer" className="underline underline-offset-4">Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen</a> zuständig.</p>
         <p className="mt-4">Für Anliegen zum Datenschutz erreichen Sie uns unter <a href={`mailto:${contact.email}`} className="underline underline-offset-4">{contact.email}</a>.</p>
 
-        <aside className="mt-12 rounded-xl border border-ember-300/25 bg-white/[0.025] p-5 text-xs leading-6 text-ember-50/60">
+        <aside className="mt-12 rounded-sm border border-ember-300/25 bg-transparent p-5 text-xs leading-6 text-ember-50/60">
           Vor Veröffentlichung müssen hier noch der konkrete Hosting-Anbieter, dessen Kontaktdaten und die zutreffenden Angaben zu Speicherfristen ergänzt werden. Die Datenschutzhinweise sollten außerdem anhand der tatsächlich gewählten Hosting- und E-Mail-Verträge geprüft werden.
         </aside>
       </article>
