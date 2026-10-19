@@ -1,0 +1,14 @@
+{
+  "title": "Sonderkarte · Oktober 2026",
+  "source": "Offizielle Sonderkarte, PDF im Verzeichnis 2026/10",
+  "sourceUrl": "https://infaxserver.de/hotel-zum-neuen-rathaus/wp-content/uploads/sites/35/2026/10/Sonderkarte_Zum_Neuen_Rathaus.pdf",
+  "note": "Die auf der offiziellen Website veröffentlichte Sonderkarte ist im Oktober 2026 hinterlegt. Bitte fragen Sie im Restaurant nach, ob das Angebot noch verfügbar ist.",
+  "categories": [
+    {
+      "name": "Aus der Saisonkarte",
+      "items": [
+        { "name": "Muscheln Rheinischer Art", "description": "1.000 g pro Portion, dazu Schwarzbrot und Butter", "priceCents": 1950 }
+      ]
+    }
+  ]
+}

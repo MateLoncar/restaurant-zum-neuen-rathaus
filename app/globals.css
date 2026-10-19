@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-display: Georgia, "Times New Roman", serif;
+  --color-ember-50: #faf8f2;
+  --color-ember-100: #f1ead8;
+  --color-ember-200: #e2d3af;
+  --color-ember-300: #d7bc80;
+  --color-ember-400: #d7bc80;
+  --color-ember-500: #c6a664;
+  --color-char-800: #292a2d;
+  --color-char-900: #191a1d;
+  --color-char-950: #101114;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: #101114;
+}
+
+::selection {
+  color: #101114;
+  background: #d7bc80;
+}
+
+.hero-shade {
+  background: linear-gradient(
+    90deg,
+    rgba(16, 17, 20, 0.96) 0%,
+    rgba(16, 17, 20, 0.88) 42%,
+    rgba(16, 17, 20, 0.46) 100%
+  );
+}
+
+.input {
+  width: 100%;
+  min-height: 2.9rem;
+  border-radius: 0.65rem;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  background: rgba(255, 255, 255, 0.045);
+  padding: 0.72rem 0.85rem;
+  color: #faf8f2;
+  font-size: 0.925rem;
+}
+
+.input::placeholder {
+  color: rgba(250, 248, 242, 0.45);
+}
+
+.input:focus-visible {
+  outline: 2px solid #d7bc80;
+  outline-offset: 2px;
+}
+
+.input option {
+  color: #191a1d;
+}
+
+.input::-webkit-calendar-picker-indicator {
+  filter: invert(0.85);
+}
+
+.skip-link {
+  position: absolute;
+  z-index: 100;
+  left: 1rem;
+  top: -5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background: #d7bc80;
+  color: #101114;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .hero-shade {
+    background: linear-gradient(
+      180deg,
+      rgba(16, 17, 20, 0.48) 0%,
+      rgba(16, 17, 20, 0.82) 35%,
+      #101114 95%
+    );
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

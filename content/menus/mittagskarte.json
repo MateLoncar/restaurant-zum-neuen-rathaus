@@ -1,0 +1,31 @@
+{
+  "title": "Mittagstisch · Kalenderwoche 42",
+  "source": "Offizielle Mittagskarte, Kalenderwoche 42 (PDF im Verzeichnis 2026/10)",
+  "sourceUrl": "https://infaxserver.de/hotel-zum-neuen-rathaus/wp-content/uploads/sites/35/2026/10/mittagstisch.pdf",
+  "note": "Die online verfügbare Karte ist mit KW 42 (12.–18. Oktober 2026) beschriftet. Am 19. Oktober hat bereits KW 43 begonnen; die folgende Auswahl kann daher veraltet sein. Bitte rufen Sie an, um das aktuelle Wochenangebot zu erfragen. Zu den Hauptgerichten gehören Tagessuppe, Tagesdessert und Salat vom Buffet.",
+  "categories": [
+    {
+      "name": "Tagessuppe",
+      "items": [
+        { "name": "Tagesfrische Suppe des Hauses", "priceLabel": "inklusive" }
+      ]
+    },
+    {
+      "name": "Hauptgerichte · KW 42",
+      "items": [
+        { "name": "Penne mit Rinderragout", "description": "Mit frisch geriebenem Parmesan", "priceCents": 1290 },
+        { "name": "Paprikaschnitzel", "description": "Mit Pommes frites", "priceCents": 1380 },
+        { "name": "Grillteller", "description": "Hacksteak und Hähnchenfilet, dazu Djuvecreis und Pommes frites", "priceCents": 1490 },
+        { "name": "Rinderfilet Stroganoff", "description": "In feiner Stroganoff-Sauce, dazu Butterreis", "priceCents": 1590 },
+        { "name": "Seeteufelfilet in Weißwein-Knoblauch-Sauce mit Krabben", "description": "Dazu Salzkartoffeln", "priceCents": 1650 },
+        { "name": "Hüftsteak in Champignonrahmsauce", "description": "Mit Kroketten", "priceCents": 1690 }
+      ]
+    },
+    {
+      "name": "Tagesdessert",
+      "items": [
+        { "name": "Tagesdessert des Hauses", "priceLabel": "inklusive" }
+      ]
+    }
+  ]
+}

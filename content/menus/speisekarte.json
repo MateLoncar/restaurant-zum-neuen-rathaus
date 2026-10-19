@@ -1,0 +1,404 @@
+{
+  "title": "Speisen & Getränke",
+  "source": "Offizielle Speisekarte, veröffentlicht im März 2026",
+  "sourceUrl": "https://infaxserver.de/hotel-zum-neuen-rathaus/wp-content/uploads/sites/35/2026/03/Speisekarte_Zum_Neuen_Rathaus.pdf",
+  "note": "Die Angaben folgen der zuletzt gefundenen offiziellen Speisekarte (PDF-Stand März 2026). Preise und Verfügbarkeit bitte vor dem Besuch telefonisch bestätigen.",
+  "categories": [
+    {
+      "name": "Aperitif",
+      "items": [
+        { "name": "Martini weiß oder rot", "priceCents": 420 },
+        { "name": "Sherry medium oder trocken", "priceCents": 400 },
+        { "name": "Campari Soda oder Orange", "priceCents": 560 },
+        { "name": "Aperol Spritz", "description": "Aperol, Prosecco, Spritzer Soda, Eis", "priceCents": 720 },
+        { "name": "Kir Royal", "priceCents": 590 },
+        { "name": "Martini / Williamsbirne", "priceCents": 590 },
+        { "name": "Limoncello „Lemon brand“", "priceCents": 480 }
+      ]
+    },
+    {
+      "name": "Vorspeisen",
+      "items": [
+        { "name": "Dalmatinischer Teller", "description": "Luftgetrockneter Schinken und dalmatinischer Käse mit Oliven, Butter und Toast", "priceCents": 1290 },
+        { "name": "Schafskäse", "description": "Mit Oliven, Butter und Toast", "priceCents": 1090 },
+        { "name": "Scampi in Olivenöl", "description": "Leicht pikant, mit Knoblauch", "priceCents": 1490 },
+        { "name": "Gebackener Camembert", "description": "Mit Preiselbeeren, Butter und Toast", "priceCents": 1090 },
+        { "name": "½ Dutzend Weinbergschnecken", "description": "In feiner Knoblauchsauce, dazu Toast", "priceCents": 950 }
+      ]
+    },
+    {
+      "name": "Suppen",
+      "items": [
+        { "name": "Hühnersuppe mit Einlage", "priceCents": 650 },
+        { "name": "Tomatencremesuppe", "description": "Mit Sahne", "priceCents": 650 },
+        { "name": "Zwiebelsuppe „Französische Art“", "description": "Mit Käse überbacken", "priceCents": 690 }
+      ]
+    },
+    {
+      "name": "Für unsere kleinen Gäste",
+      "items": [
+        { "name": "Kinder-Schnitzel „Wiener Art“", "description": "Vom Schwein, mit Pommes frites", "priceCents": 1090 },
+        { "name": "Fischstäbchen", "description": "Mit Pommes frites", "priceCents": 1090 },
+        { "name": "Nudeln", "description": "Mit Tomatensauce", "priceCents": 990 },
+        { "name": "Chicken Nuggets", "description": "Mit Pommes frites", "priceCents": 1090 }
+      ]
+    },
+    {
+      "name": "Für den kleinen Appetit und unsere Senioren",
+      "items": [
+        { "name": "Mini-Grillteller", "description": "Ein Fleischspieß, zwei Cevapcici und eine Scheibe Speck, dazu Djuvecreis und Pommes frites", "priceCents": 1690 },
+        { "name": "Putensteak „Hawaii“", "description": "Zart vom Grill, mit Ananas und Käse überbacken, dazu Kroketten", "priceCents": 1990 },
+        { "name": "Seniorenteller", "description": "Zwei Schweinemedaillons, Champignonrahmsauce, Bratkartoffeln mit Speck und Zwiebeln sowie Gemüse", "priceCents": 1850 },
+        { "name": "Lady-Steak", "description": "Rumpsteak (120 g), mit Kroketten, Broccoli und Kräuterbutter", "priceCents": 2290 },
+        { "name": "Lachssteak · 120 g", "description": "Mit Nudeln in Tomatensauce", "priceCents": 1890 },
+        { "name": "Herren-Toast", "description": "Filetsteak (120 g) auf Toast, mit gerösteten Zwiebeln und Spiegelei", "priceCents": 2450 }
+      ]
+    },
+    {
+      "name": "Vegetarische Gerichte",
+      "items": [
+        { "name": "Spätzle-Gemüse-Teller", "description": "In Sahnesauce und mit Käse überbacken", "priceCents": 1690 },
+        { "name": "Nudeln", "description": "Mit frischer Tomatensauce", "priceCents": 1450 },
+        { "name": "Folienkartoffel", "description": "Mit Crème-fraîche-Schnittlauch-Quark, dazu gegrillte Champignons", "priceCents": 1450 },
+        { "name": "Vegetarisches Risotto", "description": "Mit mediterranem Mischgemüse in cremiger Tomatensauce, dazu Parmesan", "priceCents": 1690 },
+        { "name": "Vegetarische Nudeln", "description": "Mit mediterranem Mischgemüse in cremiger Tomatensauce, dazu Parmesan", "priceCents": 1690 }
+      ]
+    },
+    {
+      "name": "Platten für zwei Personen",
+      "items": [
+        { "name": "„Rathaus“-Platte", "description": "Rumpsteak, Schweinemedaillon, Cordon Bleu, Sauce Hollandaise, Gemüse und Pommes frites", "priceCents": 4890 },
+        { "name": "Hausplatte", "description": "Spieß, Cevapcici, Schweinefilet, Pljeskavica und kleines Wiener Schnitzel, dazu Djuvecreis, Gemüse und Pommes frites", "priceCents": 4990 },
+        { "name": "Steakplatte „Benrath“", "description": "Pro Person: Rinderfilet, Rumpsteak, Schweinefilet und Kalbsmedaillons, dazu Butterreis, Kroketten, Broccoli und Pfeffersauce", "priceCents": 5800 }
+      ]
+    },
+    {
+      "name": "Argentinische Steaks „Black Angus“",
+      "note": "Frische Black-Angus-Steaks aus Argentinien, auf dem Grill zubereitet.",
+      "items": [
+        { "name": "Hüftsteak · 200 g", "priceCents": 1890 },
+        { "name": "Hüftsteak · 300 g", "priceCents": 2390 },
+        { "name": "Rumpsteak · 200 g", "priceCents": 2490 },
+        { "name": "Rumpsteak · 300 g", "priceCents": 3090 },
+        { "name": "Filetsteak · 200 g", "priceCents": 2950 },
+        { "name": "Filetsteak · 300 g", "priceCents": 3850 }
+      ]
+    },
+    {
+      "name": "Beilagen",
+      "items": [
+        { "name": "Pommes frites", "priceCents": 450 },
+        { "name": "Folienkartoffel", "priceCents": 490 },
+        { "name": "Kroketten", "priceCents": 420 },
+        { "name": "Schweizer Rösti", "priceCents": 420 },
+        { "name": "Bratkartoffeln mit Speck und Zwiebeln", "priceCents": 490 },
+        { "name": "Butterreis", "priceCents": 490 },
+        { "name": "Djuvecreis", "priceCents": 470 },
+        { "name": "Champignonköpfe", "priceCents": 590 },
+        { "name": "Blattspinat", "priceCents": 540 },
+        { "name": "Broccoli", "priceCents": 450 },
+        { "name": "Prinzessbohnen mit Speck", "priceCents": 450 },
+        { "name": "Salat vom Buffet", "priceCents": 490 },
+        { "name": "Röstzwiebeln", "priceCents": 540 }
+      ]
+    },
+    {
+      "name": "Saucen",
+      "items": [
+        { "name": "Sauce Hollandaise", "priceCents": 390 },
+        { "name": "Sauce Béarnaise", "priceCents": 390 },
+        { "name": "Frische Champignonsauce", "priceCents": 420 },
+        { "name": "Sauce „Café de Paris“", "priceCents": 490 },
+        { "name": "Pfeffersauce", "priceCents": 420 }
+      ]
+    },
+    {
+      "name": "Steak-Spezialitäten",
+      "note": "Zu jedem Hauptgericht gehört ein Salat vom Salatbuffet.",
+      "items": [
+        { "name": "Rumpsteak", "description": "Mit gerösteten Zwiebeln und Pommes frites", "priceCents": 3050 },
+        { "name": "Rumpsteak „Café de Paris“", "description": "Sauce aus Dijon-Senf, Kapern, Cognac und Zwiebeln, dazu Rösti und Gemüse", "priceCents": 3090 },
+        { "name": "Spieß „Benrath“", "description": "Drei Rinderfiletmedaillons mit Béarnaise, dazu Kroketten und Gemüse", "priceCents": 3250 },
+        { "name": "Rumpsteak „Rathaus“", "description": "Mit Garnelen in Knoblauch-Sahne-Sauce, dazu Bratkartoffeln", "priceCents": 3090 },
+        { "name": "Pfeffersteak", "description": "Zartes Filetsteak mit grüner Pfeffersauce, dazu Butterreis und Kroketten", "priceCents": 3390 },
+        { "name": "Filetsteak „Rathaus“", "description": "Mit Garnelen in Knoblauch-Sahne-Sauce, dazu Bratkartoffeln", "priceCents": 3450 },
+        { "name": "Filetsteak „Café de Paris“", "description": "Sauce aus Dijon-Senf, Kapern, Cognac und Zwiebeln, dazu Rösti und Gemüse", "priceCents": 3450 }
+      ]
+    },
+    {
+      "name": "Geflügel",
+      "note": "Zu jedem Hauptgericht gehört ein Salat vom Salatbuffet.",
+      "items": [
+        { "name": "Putenschnitzel", "description": "Paniert, dazu Pommes frites", "priceCents": 1950 },
+        { "name": "Putengeschnetzeltes", "description": "In Früchte-Currysauce, dazu Butterreis", "priceCents": 2050 },
+        { "name": "Putenstreifen mit Nudeln", "description": "Dazu Broccoli in Sahnesauce", "priceCents": 1850 },
+        { "name": "Putenmedaillons", "description": "In Champignonrahmsauce, dazu Kroketten", "priceCents": 2450 },
+        { "name": "Putensteak", "description": "Zart vom Grill, mit Pommes frites, Broccoli und Kräuterbutter", "priceCents": 2450 }
+      ]
+    },
+    {
+      "name": "Spezialitäten vom Grill",
+      "note": "Zu jedem Hauptgericht gehört ein Salat vom Salatbuffet.",
+      "items": [
+        { "name": "Ćevapčići", "description": "Mit Djuvecreis und Pommes frites", "priceCents": 1850 },
+        { "name": "Pljeskavica", "description": "Mit Schafskäse gefüllt, dazu Djuvecreis und Pommes frites", "priceCents": 2090 },
+        { "name": "Ražnjići", "description": "Zwei Spieße mit Djuvecreis und Pommes frites", "priceCents": 1850 },
+        { "name": "Halbe-Halbe", "description": "Ein Spieß und drei Ćevapčići, mit Djuvecreis und Pommes frites", "priceCents": 1850 },
+        { "name": "Räuberspieß", "description": "Rumpsteak, Schweinefilet, Kotelett und Hacksteak, dazu Djuvecreis und Pommes frites", "priceCents": 2350 },
+        { "name": "Split-Teller", "description": "Rumpsteak, Schweinefilet und Putensteak, mit Bratkartoffeln mit Speck und Zwiebeln", "priceCents": 2290 },
+        { "name": "Grill-Teller „Rathaus“", "description": "Rumpsteak, Putenfilet, Kalbsmedaillons, Speck und Kalbsleber, dazu Pommes frites und Djuvecreis", "priceCents": 2650 },
+        { "name": "Madagaskar-Teller", "description": "Schweinefiletmedaillons mit Pfirsichen und Sauce Béarnaise, dazu Rösti", "priceCents": 2250 },
+        { "name": "Grill-Teller", "description": "Kotelett, Fleischspieß, Pljeskavica, Ćevapčići und ein Stück Schafskäse, dazu Djuvecreis und Pommes frites", "priceCents": 2290 },
+        { "name": "Gegrillte Kalbsleber", "description": "Mit gerösteten Zwiebeln, dazu Djuvecreis und Pommes frites", "priceCents": 2050 },
+        { "name": "Lustiger Bosnjak", "description": "Rumpsteak, gefüllt mit Schinken und Käse, dazu Djuvecreis und Pommes frites", "priceCents": 2990 },
+        { "name": "Filet-Teller", "description": "Schweinemedaillons und Rinderfilet, dazu Champignonsauce und Sauce „Café de Paris“, serviert mit Kroketten und Broccoli", "priceCents": 2990 },
+        { "name": "Kalbsmedaillons", "description": "Mit Bratkartoffeln mit Speck und Zwiebeln sowie Prinzessbohnen", "priceCents": 2990 },
+        { "name": "Schweinemedaillons „Pfeffer“", "description": "In Pfeffersauce, dazu Rösti", "priceCents": 2250 },
+        { "name": "Überbackene Schweinemedaillons", "description": "Mit Blattspinat, Sauce Hollandaise und Käse überbacken, dazu Rösti", "priceCents": 2450 },
+        { "name": "Ratsherrenteller", "description": "Drei verschiedene Steaks, dazu Spiegelei, Prinzessbohnen und Bratkartoffeln mit Speck und Zwiebeln", "priceCents": 2490 }
+      ]
+    },
+    {
+      "name": "Schnitzel-Spezialitäten",
+      "note": "Zu jedem Hauptgericht gehört ein Salat vom Salatbuffet.",
+      "items": [
+        { "name": "Schnitzel „Wiener Art“", "description": "Vom Schwein, mit Pommes frites und Gemüse", "priceCents": 1750 },
+        { "name": "Champignonschnitzel", "description": "Mit frischer Champignonsauce und Pommes frites", "priceCents": 1850 },
+        { "name": "Paprikaschnitzel", "description": "Mit frischer Paprikasauce und Pommes frites", "priceCents": 1850 },
+        { "name": "Pfefferschnitzel", "description": "Mit Bratkartoffeln mit Speck und Zwiebeln", "priceCents": 1850 },
+        { "name": "„Zagreb“-Schnitzel", "description": "Gefüllt mit Crème fraîche und Schafskäse, dazu Pommes frites", "priceCents": 2090 },
+        { "name": "„Krüstchen“-Schnitzel", "description": "Paniert, mit Champignonsauce, Sauce Hollandaise und Käse überbacken, dazu Butterreis und Kroketten", "priceCents": 2090 },
+        { "name": "Cordon Bleu", "description": "Vom Schwein, gefüllt mit Schinken und Käse, dazu Pommes frites und Gemüse", "priceCents": 2090 },
+        { "name": "Kalbsschnitzel", "description": "Mit Pommes frites und Preiselbeeren", "priceCents": 2450 },
+        { "name": "Cordon Bleu Kalb", "description": "Vom Kalb, gefüllt mit Schinken und Käse, dazu Pommes frites und Gemüse", "priceCents": 2550 },
+        { "name": "Schnitzel „Camembert“", "description": "Schweineschnitzel mit Camembert überbacken, dazu Preiselbeeren und Pommes frites", "priceCents": 1950 }
+      ]
+    },
+    {
+      "name": "Lamm-Spezialitäten",
+      "note": "Zu jedem Hauptgericht gehört ein Salat vom Salatbuffet.",
+      "items": [
+        { "name": "Lamm-Kotelett", "description": "Vom Grill, mit Bratkartoffeln mit Speck und Zwiebeln, Prinzessbohnen mit Speck und Knoblauchsauce", "priceCents": 3250 },
+        { "name": "Lammfilet", "description": "Vom Grill, mit Bratkartoffeln mit Speck und Zwiebeln, Prinzessbohnen mit Speck und Knoblauchsauce", "priceCents": 3250 },
+        { "name": "Lamm-Grillteller", "description": "Vom Grill, mit Bratkartoffeln mit Speck und Zwiebeln, Prinzessbohnen mit Speck und Knoblauchsauce", "priceCents": 3250 }
+      ]
+    },
+    {
+      "name": "Pfannengerichte",
+      "note": "Zu jedem Hauptgericht gehört ein Salat vom Salatbuffet.",
+      "items": [
+        { "name": "Muckalica", "description": "Geschnetzeltes Schweinefilet mit frischen Tomaten, Paprika und Zwiebeln in pikanter Sauce, dazu Butterreis", "priceCents": 2190 },
+        { "name": "Putengeschnetzeltes", "description": "In feiner Champignonsauce, dazu Spätzle", "priceCents": 2250 },
+        { "name": "Paprika-Leber-Pfanne", "description": "Geschnetzelte Leber mit gedünsteten Zwiebeln, Paprika und Tomaten in pikanter Sauce, dazu Butterreis", "priceCents": 2250 },
+        { "name": "Zürcher Geschnetzeltes", "description": "Schweinefiletspitzen in pikanter Champignonsauce, dazu Spätzle", "priceCents": 2250 },
+        { "name": "Benrather Pfanne", "description": "Drei verschiedene Steaks in Champignonsauce, dazu Spätzle", "priceCents": 2550 },
+        { "name": "Filettopf", "description": "Drei verschiedene Filetstückchen in Sauce „Café de Paris“, dazu Kroketten und Broccoli", "priceCents": 2650 },
+        { "name": "Toskana-Pfanne", "description": "Rinderfiletstückchen mit Champignons, Paprikaschoten und Oliven in pikanter Sauce, dazu Butterreis", "priceCents": 2550 },
+        { "name": "Putenpfanne „Mediterran“", "description": "Putenbrust, Paprikaschoten, Champignons, Porree, Oliven, Kartoffeln und frische Kräuter", "priceCents": 2250 }
+      ]
+    },
+    {
+      "name": "Fisch-Spezialitäten",
+      "note": "Zu jedem Hauptgericht gehört ein Salat vom Salatbuffet.",
+      "items": [
+        { "name": "Baby-Calamares", "description": "Vom Grill, mit Blattspinat, Salzkartoffeln und Knoblauchsauce", "priceCents": 2090 },
+        { "name": "Schollenfilet", "description": "Mit Bandnudeln in Tomaten-Basilikumsauce", "priceCents": 2390 },
+        { "name": "Lachs „Dalmatinischer Art“", "description": "Zwei Lachsfilets mit Knoblauch-Olivenöl-Sauce, dazu Blattspinat und Salzkartoffeln", "priceCents": 2590 },
+        { "name": "Zanderfilet", "description": "Mit Weißweinsauce, dazu Salzkartoffeln und Broccoli", "priceCents": 2590 },
+        { "name": "Forelle", "description": "Gegrillt oder „Müllerin Art“, dazu Blattspinat und Salzkartoffeln", "priceCents": 2390 },
+        { "name": "Scampi am Spieß", "description": "Sechs Stück vom Grill, mit Butterreis und Knoblauchsauce", "priceCents": 2990 },
+        { "name": "Dorade, ganz", "description": "Mit Knoblauch-Olivenöl-Sauce, dazu Blattspinat und Salzkartoffeln", "priceCents": 2990 },
+        { "name": "Doradefilet mit Scampi", "description": "In Weißwein-Knoblauch-Sahnesauce, dazu Bandnudeln", "priceCents": 2850 }
+      ]
+    },
+    {
+      "name": "Heiße Getränke",
+      "note": "Koffeinfreie Zubereitung auf Wunsch: Aufpreis 1,00 €.",
+      "items": [
+        { "name": "Kaffee Crema", "priceCents": 310 },
+        { "name": "Espresso", "priceCents": 300 },
+        { "name": "Espresso Macchiato", "priceCents": 310 },
+        { "name": "Doppelter Espresso", "priceCents": 500 },
+        { "name": "Latte Macchiato", "priceCents": 430 },
+        { "name": "Cappuccino", "priceCents": 390 },
+        { "name": "Milchkaffee", "priceCents": 420 },
+        { "name": "Tee", "priceCents": 320 },
+        { "name": "Kakao", "description": "Mit frischer Milch", "priceCents": 420 }
+      ]
+    },
+    {
+      "name": "Alkoholfreie Getränke",
+      "items": [
+        { "name": "Coca-Cola · 0,33 l", "priceCents": 390 },
+        { "name": "Coca-Cola light · 0,33 l", "priceCents": 390 },
+        { "name": "Coca-Cola zero · 0,33 l", "priceCents": 390 },
+        { "name": "Fanta · 0,33 l", "priceCents": 390 },
+        { "name": "Sprite · 0,33 l", "priceCents": 390 },
+        { "name": "Mezzo Mix · 0,33 l", "priceCents": 390 },
+        { "name": "Mineralwasser · 0,25 l", "priceCents": 330 },
+        { "name": "Stilles Wasser · 0,25 l", "priceCents": 330 },
+        { "name": "Medium Wasser · 0,25 l", "priceCents": 330 },
+        { "name": "Mineralwasser · 0,75 l", "priceCents": 710 },
+        { "name": "Stilles Wasser · 0,75 l", "priceCents": 710 },
+        { "name": "Medium Wasser · 0,75 l", "priceCents": 710 },
+        { "name": "Original Bitter Lemon · 0,2 l", "priceCents": 340 },
+        { "name": "Indian Tonic Water · 0,2 l", "priceCents": 340 },
+        { "name": "American Ginger Ale · 0,2 l", "priceCents": 340 },
+        { "name": "Apfelsaft · 0,2 l", "priceCents": 320 },
+        { "name": "Apfelschorle · 0,3 l", "priceCents": 390 },
+        { "name": "Orangensaft · 0,2 l", "priceCents": 290 },
+        { "name": "Schwarzer Johannisbeersaft · 0,2 l", "priceCents": 320 },
+        { "name": "Orangina · 0,25 l", "priceCents": 390 },
+        { "name": "Rhabarberschorle · 0,33 l", "priceCents": 410 },
+        { "name": "Zitronenschorle · 0,33 l", "priceCents": 410 },
+        { "name": "Johannisbeerschorle · 0,33 l", "priceCents": 390 }
+      ]
+    },
+    {
+      "name": "Biere",
+      "items": [
+        { "name": "Bitburger Pils · 0,3 l", "priceCents": 360 },
+        { "name": "Füchschen Alt · 0,25 l", "priceCents": 300 },
+        { "name": "Bolten Alt · 0,33 l", "priceCents": 390 },
+        { "name": "Benediktiner Weißbier · 0,5 l", "priceCents": 550 },
+        { "name": "Radler · 0,3 l", "priceCents": 360 },
+        { "name": "Bitburger alkoholfrei · 0,33 l", "priceCents": 390 },
+        { "name": "Füchschen alkoholfrei · 0,33 l", "priceCents": 390 },
+        { "name": "Benediktiner alkoholfrei · 0,5 l", "priceCents": 550 },
+        { "name": "Radler alkoholfrei · 0,33 l", "priceCents": 390 }
+      ]
+    },
+    {
+      "name": "Spirituosen",
+      "items": [
+        { "name": "Nordhäuser Doppelkorn · 2 cl", "priceCents": 280 },
+        { "name": "Malteser Aquavit · 2 cl", "priceCents": 310 },
+        { "name": "Jubiläum Aquavit · 2 cl", "priceCents": 310 },
+        { "name": "Linie Aquavit · 2 cl", "priceCents": 310 },
+        { "name": "Schladerer Williams Christ · 2 cl", "priceCents": 350 },
+        { "name": "Metaxa · 4 cl", "priceCents": 380 },
+        { "name": "Slivovic · 2 cl", "priceCents": 290 },
+        { "name": "Julischka · 2 cl", "priceCents": 290 },
+        { "name": "Ouzo 12 · 2 cl", "priceCents": 280 },
+        { "name": "Gilbert Calvados · 2 cl", "priceCents": 350 },
+        { "name": "Grappa Nonino Vuisinar · 2 cl", "priceCents": 420 },
+        { "name": "Sambuca · 2 cl", "priceCents": 290 },
+        { "name": "Samtkragen · 2 cl", "priceCents": 300 },
+        { "name": "Wodka · 2 cl", "priceCents": 290 },
+        { "name": "Baileys · 4 cl", "priceCents": 390 },
+        { "name": "Sierra Tequila · 2 cl", "priceCents": 300 }
+      ]
+    },
+    {
+      "name": "Bitter / Halbbitter",
+      "items": [
+        { "name": "Ramazzotti · 2 cl", "priceCents": 290 },
+        { "name": "Averna · 2 cl", "priceCents": 290 },
+        { "name": "Kümmerling · 2 cl", "priceCents": 290 },
+        { "name": "Jägermeister · 2 cl", "priceCents": 290 },
+        { "name": "Underberg · 2 cl", "priceCents": 290 },
+        { "name": "Fernet Branca · 2 cl", "priceCents": 290 },
+        { "name": "Pelinkovac · 2 cl", "priceCents": 280 },
+        { "name": "Killepitsch · 2 cl", "priceCents": 280 }
+      ]
+    },
+    {
+      "name": "Whiskey und Cognac",
+      "items": [
+        { "name": "Johnnie Walker · 4 cl", "priceCents": 470 },
+        { "name": "Ballantines · 4 cl", "priceCents": 470 },
+        { "name": "Jack Daniels · 4 cl", "priceCents": 540 },
+        { "name": "Hennessy V.S.O.P. · 4 cl", "priceCents": 520 }
+      ]
+    },
+    {
+      "name": "Weinbrände",
+      "items": [
+        { "name": "Asbach Uralt · 4 cl", "priceCents": 350 },
+        { "name": "Cardenal Mendoza · 4 cl", "priceCents": 590 }
+      ]
+    },
+    {
+      "name": "Offene Weißweine",
+      "items": [
+        { "name": "Grauburgunder, trocken · 0,2 l", "priceCents": 560 },
+        { "name": "Pinot Grigio, trocken · 0,2 l", "priceCents": 560 },
+        { "name": "Malvazija, trocken · 0,2 l", "priceCents": 560 },
+        { "name": "Graševina, halbtrocken · 0,2 l", "priceCents": 560 },
+        { "name": "Laški Riesling, lieblich · 0,2 l", "priceCents": 560 },
+        { "name": "Weinschorle · 0,2 l", "priceCents": 540 }
+      ]
+    },
+    {
+      "name": "Offene Rotweine",
+      "items": [
+        { "name": "Pelješac, halbtrocken · 0,2 l", "priceCents": 560 },
+        { "name": "Dalmatiner, lieblich · 0,2 l", "priceCents": 560 },
+        { "name": "Merlot, trocken · 0,2 l", "priceCents": 560 },
+        { "name": "Primitivo, trocken · 0,2 l", "priceCents": 560 }
+      ]
+    },
+    {
+      "name": "Offene Roséweine",
+      "items": [
+        { "name": "Weißherbst, mild · 0,2 l", "priceCents": 560 },
+        { "name": "Opolo Split, trocken · 0,2 l", "priceCents": 560 }
+      ]
+    },
+    {
+      "name": "Schaumweine",
+      "items": [
+        { "name": "Geldermann, trocken · 0,75 l", "priceCents": 2950 },
+        { "name": "Glas Sekt · 0,1 l", "priceCents": 480 },
+        { "name": "Prosecco, trocken · 0,75 l", "priceCents": 2750 }
+      ]
+    },
+    {
+      "name": "Flaschenweine, rot",
+      "items": [
+        { "name": "Cabernet Sauvignon · 0,75 l", "priceCents": 2800 },
+        { "name": "Primitivo · 0,75 l", "priceCents": 2800 },
+        { "name": "Dingač · 0,75 l", "priceCents": 3300 }
+      ]
+    },
+    {
+      "name": "Flaschenweine, weiß",
+      "items": [
+        { "name": "Lugana · 0,75 l", "priceCents": 2900 },
+        { "name": "Pinot Grigio · 0,75 l", "priceCents": 2600 },
+        { "name": "Grauburgunder Heger · 0,75 l", "priceCents": 2700 },
+        { "name": "Pošip · 0,75 l", "priceCents": 3200 }
+      ]
+    },
+    {
+      "name": "Flaschenweine, Rosé",
+      "items": [
+        { "name": "Rosé Kutjevo Premium, trocken · 0,75 l", "priceCents": 2500 }
+      ]
+    },
+    {
+      "name": "Champagner",
+      "items": [
+        { "name": "Champagne Brut Reserve · 0,75 l", "priceCents": 6500 },
+        { "name": "Piccolo Champagne Moët & Chandon · 0,2 l", "priceCents": 2090 }
+      ]
+    }
+  ],
+  "additives": [
+    "1 · mit Farbstoff",
+    "2 · mit Konservierungsstoff",
+    "3 · mit Antioxidationsmittel",
+    "4 · mit Geschmacksverstärker",
+    "5 · koffeinhaltig",
+    "6 · mit Süßungsmitteln",
+    "7 · geschwefelt",
+    "8 · mit Phosphat",
+    "9 · enthält eine Phenylalaninquelle",
+    "10 · mit Nitritpökelsalz",
+    "11 · Steinobst könnte Reststeine enthalten",
+    "12 · in Fischfilets könnten Reste von Gräten enthalten sein",
+    "20 · Pfanne ist heiß",
+    "35 · Speisen nur zum sofortigen Verzehr"
+  ],
+  "allergenNote": "Eine separate Allergikerkarte gibt Auskunft über Allergene in den Speisen. Bitte fragen Sie vor der Bestellung das Personal nach den aktuellen Allergeninformationen."
+}
